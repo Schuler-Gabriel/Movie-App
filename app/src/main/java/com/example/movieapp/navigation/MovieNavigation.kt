@@ -11,7 +11,7 @@ import com.example.movieapp.screens.home.HomeScreen
 
 @Composable
 fun MovieNavigation(){
-    val navController = rememberNavController()
+val navController = rememberNavController()
 
     NavHost(
         navController = navController,
